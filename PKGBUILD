@@ -15,7 +15,7 @@ sha256sums=('19b331e6bf943d3293ad597e13b005cc29f30342e34d608ddafaac1bf5e1417e')
 
 
 package() {
-    cd "${srcdir}/${pkgname}"
+    cd $pkgname-$pkgver
     mkdir -p "$pkgdir"/usr/share/fonts/google-opensans/ 
     cp *.ttf "$pkgdir"/usr/share/fonts/google-opensans/ 
 }
