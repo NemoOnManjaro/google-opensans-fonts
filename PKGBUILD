@@ -11,7 +11,7 @@ url="https://github.com/nemomobile-packages/google-opensans-fonts"
 license=('Apache License 2.0')
 makedepends=('git')
 source=("${url}/archive/refs/tags/$pkgver.tar.gz")
-md5sums=('19b331e6bf943d3293ad597e13b005cc29f30342e34d608ddafaac1bf5e1417e')
+sha256sums=('19b331e6bf943d3293ad597e13b005cc29f30342e34d608ddafaac1bf5e1417e')
 
 
 package() {
